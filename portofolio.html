@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        body {
+            background: rgb(214, 214, 214);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Main content -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-bottom shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Y Besar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a href="" class="btn btn-outline-info">My Inventory</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Portfolio -->
+        <div class="row bg-light my-5 border border-secondary rounded">
+            <div class="col-1"></div>
+            <div class="col-2"><img src="https://source.unsplash.com/250x250?person" alt="Person"
+                    class="img rounded-circle p-1 my-4" width="140"></div>
+            <div class="col-3">
+                <ul class="list-group my-4">
+                    <li class="list-group-item">Nama kamu</li>
+                    <li class="list-group-item">Role kamu</li>
+                    <li class="list-group-item"><a href="#" class="btn btn-primary">Kontak</a> | <a href="#"
+                            class="btn btn-outline-secondary">Resume</a></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <table class="my-4">
+                    <tr>
+                        <td>Availability</td>
+                        <td>:</td>
+                        <td>Full Time</td>
+                    </tr>
+                    <tr>
+                        <td>Usia</td>
+                        <td>:</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Lokasi</td>
+                        <td>:</td>
+                        <td>Jakarta, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Pengalaman</td>
+                        <td>:</td>
+                        <td>3 Tahun</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>yagimanasih913@numbme.com</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+        <!-- Form input -->
+        <form>
+            <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama">
+            </div>
+            <div class="mb-3">
+                <label for="role" class="form-label">Keahlianmu (bidang)</label>
+                <input type="text" class="form-control" id="role">
+            </div>
+            <div class="mb-3">
+                <label for="availability" class="form-label">Availability</label>
+                <input type="text" class="form-control" id="availability">
+            </div>
+            <div class="mb-3">
+                <label for="umur" class="form-label">Umur</label>
+                <input type="number" class="form-control" id="umur">
+            </div>
+            <div class="mb-3">
+                <label for="lokasi" class="form-label">Lokasi</label>
+                <input type="text" class="form-control" id="lokasi">
+            </div>
+            <div class="mb-3">
+                <label for="experience" class="form-label">Keahlianmu (tahun)</label>
+                <input type="text" class="form-control" id="experience">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
